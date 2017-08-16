@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/mbtbackground"
+    >
+
+    <TextView
+        android:text="Gåvor"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/gavor_button_back"
+        android:layout_width="@dimen/backbuttonwidth"
+        android:layout_height="@dimen/backbuttonwidth"
+        android:background="@drawable/back1600"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <ScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="@dimen/scrollmargintop"
+        android:id="@+id/gavor_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_centerHorizontal="true"
+
+        >
+
+        <TextView
+            android:id="@+id/text_gavor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

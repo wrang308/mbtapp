@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scrollbuttonsmargintopandbottom">10dp</dimen>
+    <dimen name="scrollbuttonsmarginleft">0dp</dimen>
+    <dimen name="scrollbuttonheight">100dp</dimen>
+    <dimen name="scrollbuttonwidth">340dp</dimen>
+    <dimen name="scrollmargintop">80dp</dimen>
+    <dimen name="backbuttonheight">60dp</dimen>
+    <dimen name="backbuttonwidth">60dp</dimen>
+</resources>
