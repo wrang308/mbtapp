@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.example.marku.mbtapp.MainActivity"
     android:background="@drawable/mbtbackground"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
     >
 
     <TextView
