@@ -44,6 +44,15 @@
             android:layout_height="wrap_content"
             >
 
+            <TableRow>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/dod_ko_bread_text"
+                    />
+
+            </TableRow>
 
             <TableRow>
                 <TextView
