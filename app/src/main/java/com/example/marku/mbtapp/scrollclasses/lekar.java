@@ -39,6 +39,13 @@ public class lekar extends AppCompatActivity {
         Button button_riding_pony = (Button) findViewById(R.id.button_lekar_riding_pony);
         Button button_ninja = (Button) findViewById(R.id.button_lekar_ninja);
         Button button_samurai = (Button) findViewById(R.id.button_lekar_samurai);
+        Button button_skicka_kuddar = (Button) findViewById(R.id.button_lekar_skicka_kuddar);
+        Button button_nipon = (Button) findViewById(R.id.button_lekar_nipon);
+        Button button_grannar = (Button) findViewById(R.id.button_lekar_grannar);
+        Button button_greenpeace = (Button) findViewById(R.id.button_lekar_greenpeace);
+        Button button_high_chaparall = (Button) findViewById(R.id.button_lekar_high_chaparall);
+        Button button_fotleken = (Button) findViewById(R.id.button_lekar_fotleken);
+        Button button_en_bla_vada = (Button) findViewById(R.id.button_lekar_en_bla_vada);
 
         button_dod_ko.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -161,6 +168,69 @@ public class lekar extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(lekar.this, lekar_med_bara_text.class);
                 intent.putExtra("lek_title", "Samurai");
+                startActivity(intent);
+            }
+        });
+
+        button_skicka_kuddar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(lekar.this, lekar_med_bara_text.class);
+                intent.putExtra("lek_title", "Skicka kuddar");
+                startActivity(intent);
+            }
+        });
+
+        button_nipon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(lekar.this, lekar_med_bara_text.class);
+                intent.putExtra("lek_title", "Nipon");
+                startActivity(intent);
+            }
+        });
+
+        button_grannar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(lekar.this, lekar_med_bara_text.class);
+                intent.putExtra("lek_title", "Tycker du om dina grannar?");
+                startActivity(intent);
+            }
+        });
+
+        button_greenpeace.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(lekar.this, lekar_med_bara_text.class);
+                intent.putExtra("lek_title", "Greenpeace");
+                startActivity(intent);
+            }
+        });
+
+        button_high_chaparall.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(lekar.this, lekar_med_bara_text.class);
+                intent.putExtra("lek_title", "High chaparall");
+                startActivity(intent);
+            }
+        });
+
+        button_fotleken.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(lekar.this, lekar_med_bara_text.class);
+                intent.putExtra("lek_title", "Fotleken");
+                startActivity(intent);
+            }
+        });
+
+        button_en_bla_vada.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(lekar.this, lekar_med_bara_text.class);
+                intent.putExtra("lek_title", "En blå vadå?");
                 startActivity(intent);
             }
         });

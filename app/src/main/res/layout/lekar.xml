@@ -197,7 +197,83 @@
                     android:layout_marginLeft="@dimen/scrollbuttonsmarginleft"
                     />
             </TableRow>
-
+            <TableRow>
+                <Button
+                    android:text="Skicka kuddae"
+                    android:id="@+id/button_lekar_skicka_kuddar"
+                    android:layout_width="@dimen/scrollbuttonwidth"
+                    android:layout_height="@dimen/scrollbuttonheight"
+                    android:layout_marginTop="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginBottom="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginLeft="@dimen/scrollbuttonsmarginleft"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:text="Nipon"
+                    android:id="@+id/button_lekar_nipon"
+                    android:layout_width="@dimen/scrollbuttonwidth"
+                    android:layout_height="@dimen/scrollbuttonheight"
+                    android:layout_marginTop="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginBottom="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginLeft="@dimen/scrollbuttonsmarginleft"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:text="Tycker du om dina grannar?"
+                    android:id="@+id/button_lekar_grannar"
+                    android:layout_width="@dimen/scrollbuttonwidth"
+                    android:layout_height="@dimen/scrollbuttonheight"
+                    android:layout_marginTop="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginBottom="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginLeft="@dimen/scrollbuttonsmarginleft"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:text="Greenpeace"
+                    android:id="@+id/button_lekar_greenpeace"
+                    android:layout_width="@dimen/scrollbuttonwidth"
+                    android:layout_height="@dimen/scrollbuttonheight"
+                    android:layout_marginTop="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginBottom="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginLeft="@dimen/scrollbuttonsmarginleft"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:text="High chaparall"
+                    android:id="@+id/button_lekar_high_chaparall"
+                    android:layout_width="@dimen/scrollbuttonwidth"
+                    android:layout_height="@dimen/scrollbuttonheight"
+                    android:layout_marginTop="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginBottom="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginLeft="@dimen/scrollbuttonsmarginleft"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:text="Fotleken"
+                    android:id="@+id/button_lekar_fotleken"
+                    android:layout_width="@dimen/scrollbuttonwidth"
+                    android:layout_height="@dimen/scrollbuttonheight"
+                    android:layout_marginTop="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginBottom="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginLeft="@dimen/scrollbuttonsmarginleft"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:text="En blå vadå?"
+                    android:id="@+id/button_lekar_en_bla_vada"
+                    android:layout_width="@dimen/scrollbuttonwidth"
+                    android:layout_height="@dimen/scrollbuttonheight"
+                    android:layout_marginTop="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginBottom="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginLeft="@dimen/scrollbuttonsmarginleft"
+                    />
+            </TableRow>
 
 
 

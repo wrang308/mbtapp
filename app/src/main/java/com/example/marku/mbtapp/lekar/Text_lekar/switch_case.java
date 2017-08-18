@@ -19,6 +19,14 @@ public class switch_case {
     final Text_riding_pony riding_pony = new Text_riding_pony();
     final Text_ninja ninja = new Text_ninja();
     final Text_samurai samurai = new Text_samurai();
+    final Text_skicka_kuddar skicka_kuddar = new Text_skicka_kuddar();
+    final Text_nipon nipon = new Text_nipon();
+    final Text_grannar grannar = new Text_grannar();
+    final Text_greenpeace greenpeace = new Text_greenpeace();
+    final Text_high_chaparall high_chaparall = new Text_high_chaparall();
+    final Text_fotleken fotleken = new Text_fotleken();
+    final Text_en_bla_vada en_bla_vada = new Text_en_bla_vada();
+
 
 
 
@@ -50,6 +58,20 @@ public class switch_case {
             case "Ninja": return ninja.getText_ninja();
 
             case "Samurai": return samurai.getText_samurai();
+
+            case "Skicka kuddar": return skicka_kuddar.getText_skicka_kuddar();
+
+            case "Nipon": return nipon.getText_nipon();
+
+            case "Tycker du om dina grannar?": return grannar.getText_grannar();
+
+            case "Greenpeace": return greenpeace.getText_greenpeace();
+
+            case "High chaparall": return high_chaparall.getText_high_chaparall();
+
+            case "Fotleken": return fotleken.getText_fotleken();
+
+            case "En blå vadå?": return en_bla_vada.getText_en_bla_vada();
 
         }
         return "";

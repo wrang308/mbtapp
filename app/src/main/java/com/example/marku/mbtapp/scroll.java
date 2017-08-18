@@ -41,6 +41,7 @@ public class scroll extends AppCompatActivity{
         Button button_gavor = (Button) findViewById(R.id.scrollbutton5);
         ImageButton button_back = (ImageButton) findViewById(R.id.scrollbutton_back);
 
+
         final TextView text = (TextView) findViewById(R.id.time);
 
         button_back.setOnClickListener(new View.OnClickListener() {
