@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Display;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -93,6 +95,23 @@ public class scroll extends AppCompatActivity{
 
 
 
+
+
+
+
     }
+
+
+/**
+ *
+ * Tested to make backbutton in the menu at top
+ *
+    @Override
+    public boolean onCreateOptionsMenu (Menu menu){
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    */
 
 }

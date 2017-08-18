@@ -7,4 +7,5 @@
     <dimen name="scrollmargintop">80dp</dimen>
     <dimen name="backbuttonheight">60dp</dimen>
     <dimen name="backbuttonwidth">60dp</dimen>
+    <dimen name="title_size">32sp</dimen>
 </resources>

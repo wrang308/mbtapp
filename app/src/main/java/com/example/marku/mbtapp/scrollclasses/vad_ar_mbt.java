@@ -24,6 +24,10 @@ public class vad_ar_mbt extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vad_ar_mbt);
 
+        final TextView text1234 = (TextView) findViewById(R.id.text_vad_ar_mbt);
+
+        final String vad_ar_mbt = Text_vad_ar_mbt.getText();
+        text1234.setText(vad_ar_mbt);
 
 
         ImageButton button_back = (ImageButton) findViewById(R.id.vad_ar_mbt_button_back);
@@ -37,9 +41,5 @@ public class vad_ar_mbt extends AppCompatActivity {
         });
 
 
-        final TextView text1234 = (TextView) findViewById(R.id.text_vad_ar_mbt);
-
-        final String vad_ar_mbt = Text_vad_ar_mbt.getText();
-        text1234.setText(vad_ar_mbt);
     }
 }

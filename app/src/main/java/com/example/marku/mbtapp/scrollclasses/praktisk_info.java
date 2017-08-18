@@ -22,6 +22,11 @@ public class praktisk_info extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.praktisk_info);
 
+        final TextView text1234 = (TextView) findViewById(R.id.text_praktisk_info);
+
+        final String praktisk_info = Text_praktisk_info.getText();
+        text1234.setText(praktisk_info);
+
 
         ImageButton button_back = (ImageButton) findViewById(R.id.praktisk_info_button_back);
 
@@ -32,12 +37,6 @@ public class praktisk_info extends AppCompatActivity{
                 startActivity(intent);
             }
         });
-
-
-        final TextView text1234 = (TextView) findViewById(R.id.text_praktisk_info);
-
-        final String praktisk_info = Text_praktisk_info.getText();
-        text1234.setText(praktisk_info);
 
     }
 

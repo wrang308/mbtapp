@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.marku.mbtapp.R;
@@ -22,6 +23,7 @@ public class lekar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lekar);
 
+        ImageButton lekar_button_back = (ImageButton) findViewById(R.id.lekar_button_back);
 
         Button button_dod_ko = (Button) findViewById(R.id.button_lekar_dod_ko);
         Button button_alskling_alskling = (Button) findViewById(R.id.button_lekar_alskling_alskling);
@@ -58,7 +60,7 @@ public class lekar extends AppCompatActivity {
         button_kramleken.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(lekar.this, lekar_med_bara_text.class);
+                Intent intent = new Intent (lekar.this, lekar_med_bara_text.class);
                 intent.putExtra("lek_title", "Kramleken");
                 startActivity(intent);
             }
@@ -159,6 +161,16 @@ public class lekar extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(lekar.this, lekar_med_bara_text.class);
                 intent.putExtra("lek_title", "Samurai");
+                startActivity(intent);
+            }
+        });
+
+
+        // BACK
+        lekar_button_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(lekar.this, scroll.class);
                 startActivity(intent);
             }
         });

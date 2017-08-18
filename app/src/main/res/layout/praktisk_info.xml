@@ -12,7 +12,7 @@
 
     <TextView
         android:text="Praktisk info"
-        android:textSize="50sp"
+        android:textSize="@dimen/title_size"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
