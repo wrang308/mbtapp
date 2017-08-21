@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.marku.mbtapp">
+    package="com.missionarsbarnsapp.marku.mbtapp">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.MainActivity"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,36 +17,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.marku.mbtapp.scroll"
+        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scroll"
             android:launchMode="singleTask">
     </activity>
 
 
-        <activity android:name="com.example.marku.mbtapp.scrollclasses.vad_ar_mbt"
+        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.vad_ar_mbt"
             android:launchMode="singleTask">
         </activity>
 
-        <activity android:name="com.example.marku.mbtapp.scrollclasses.praktisk_info"
+        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.praktisk_info"
             android:launchMode="singleTask">
         </activity>
 
-        <activity android:name="com.example.marku.mbtapp.scrollclasses.lekar"
+        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.lekar"
             android:launchMode="singleTask">
          </activity>
 
-        <activity android:name="com.example.marku.mbtapp.scrollclasses.mbt_plus"
+        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.mbt_plus"
             android:launchMode="singleTask">
         </activity>
 
-        <activity android:name="com.example.marku.mbtapp.scrollclasses.gavor"
+        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.gavor"
             android:launchMode="singleTask">
         </activity>
 
-        <activity android:name="com.example.marku.mbtapp.lekar.lekar_med_bara_text"
+        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.lekar.lekar_med_bara_text"
             android:launchMode="singleTask">
         </activity>
 
-        <activity android:name="com.example.marku.mbtapp.lekar.dod_ko"
+        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.lekar.dod_ko"
             android:launchMode="singleTask">
         </activity>
 

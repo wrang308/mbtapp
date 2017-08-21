@@ -174,7 +174,18 @@
                 android:layout_marginBottom="@dimen/scrollbuttonsmargintopandbottom"
                 android:layout_marginLeft="@dimen/scrollbuttonsmarginleft"
                 />
-        </TableRow>
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:text="Lasse går i ringen"
+                    android:id="@+id/button_lekar_lasse_gar_i_ringen"
+                    android:layout_width="@dimen/scrollbuttonwidth"
+                    android:layout_height="@dimen/scrollbuttonheight"
+                    android:layout_marginTop="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginBottom="@dimen/scrollbuttonsmargintopandbottom"
+                    android:layout_marginLeft="@dimen/scrollbuttonsmarginleft"
+                    />
+            </TableRow>
             <TableRow>
                 <Button
                     android:text="Ninja"

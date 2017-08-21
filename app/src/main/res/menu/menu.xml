@@ -7,7 +7,7 @@
 
     <item android:id="@+id/menu_back"
         android:title="Back"
-        android:icon="@drawable/back1600"
+        android:icon="@drawable/back1600_big"
         app:showAsAction="always">
     </item>
 
