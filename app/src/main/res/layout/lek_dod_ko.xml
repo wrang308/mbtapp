@@ -6,8 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.missionarsbarnsapp.marku.mbtapp.MainActivity"
     android:background="@drawable/mbtbackground"
+    android:paddingBottom="5dp"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
+    android:paddingTop="10dp"
     >
 
     <TextView
