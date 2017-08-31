@@ -10,44 +10,55 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.missionarsbarnsapp.marku.mbtapp.MainActivity"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"
+                    />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scroll"
-            android:launchMode="singleTask">
-    </activity>
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
 
 
         <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.vad_ar_mbt"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
         </activity>
 
         <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.praktisk_info"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
         </activity>
 
         <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.lekar"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
          </activity>
 
         <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.mbt_plus"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
         </activity>
 
         <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.gavor"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
         </activity>
 
         <activity android:name="com.missionarsbarnsapp.marku.mbtapp.lekar.lekar_med_bara_text"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
         </activity>
 
         <activity android:name="com.missionarsbarnsapp.marku.mbtapp.lekar.dod_ko"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
         </activity>
 
 

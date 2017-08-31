@@ -30,7 +30,7 @@ public class lekar extends AppCompatActivity {
         Button button_flortleken = (Button) findViewById(R.id.button_lekar_flortleken);
         Button button_djungeltelegrafen = (Button) findViewById(R.id.button_lekar_djungeltelegrafen);
         Button button_mafia = (Button) findViewById(R.id.button_lekar_mafia);
-        Button button_solomon_acation = (Button) findViewById(R.id.button_lekar_solomon_acation);
+        Button button_solomon_occasion = (Button) findViewById(R.id.button_lekar_solomon_occasion);
         Button button_toarullsleken = (Button) findViewById(R.id.button_lekar_toarullsleken);
         Button button_kaptenen_kommer = (Button) findViewById(R.id.button_lekar_kaptenen_kommer);
         Button button_fruktsallad = (Button) findViewById(R.id.button_lekar_fruktsallad);
@@ -100,11 +100,11 @@ public class lekar extends AppCompatActivity {
             }
         });
 
-        button_solomon_acation.setOnClickListener(new View.OnClickListener() {
+        button_solomon_occasion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(lekar.this, lekar_med_bara_text.class);
-                intent.putExtra("lek_title", "Solomon acation");
+                intent.putExtra("lek_title", "Solomon occasion");
                 startActivity(intent);
             }
         });

@@ -9,6 +9,38 @@
     >
 
 
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="125dp"
+        android:id="@+id/Viewflipper"
+        android:layout_centerHorizontal="true"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/imageedit_1_2186909303"
+            android:scaleType="fitXY"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/group_photo"
+            android:scaleType="fitXY"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hemsida"
+            android:scaleType="fitXY"
+            android:id="@+id/button_hemsida"
+            />
+
+
+    </ViewFlipper>
+
 
 
 
@@ -38,36 +70,7 @@
         />
 
 
-    <ViewFlipper
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_marginTop="50dp"
-        android:id="@+id/Viewflipper"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/time"
-        >
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/imageedit_1_2186909303"
-            android:scaleType="fitXY"
-            />
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/group_photo"
-            android:scaleType="fitXY"
-            />
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/mbt_plus_group"
-            android:scaleType="fitXY"
-            />
-
-
-    </ViewFlipper>
 
     <ImageButton
         android:layout_width="50dp"

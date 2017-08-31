@@ -115,8 +115,8 @@
             </TableRow>
             <TableRow>
                 <Button
-                    android:text="This is a very solomon acation"
-                    android:id="@+id/button_lekar_solomon_acation"
+                    android:text="This is a very solomon occasion"
+                    android:id="@+id/button_lekar_solomon_occasion"
                     android:layout_width="@dimen/scrollbuttonwidth"
                     android:layout_height="@dimen/scrollbuttonheight"
                     android:layout_marginTop="@dimen/scrollbuttonsmargintopandbottom"
