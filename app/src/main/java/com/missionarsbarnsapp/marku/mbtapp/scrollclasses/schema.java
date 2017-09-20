@@ -9,32 +9,31 @@ import android.widget.TextView;
 
 import com.missionarsbarnsapp.marku.mbtapp.MainActivity;
 import com.missionarsbarnsapp.marku.mbtapp.R;
-import com.missionarsbarnsapp.marku.mbtapp.Text.Text_gavor;
 
 /**
- * Created by marku on 2017-08-10.
+ * Created by marku on 2017-09-20.
  */
 
-public class gavor extends AppCompatActivity {
+public class schema extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.gavor);
+        setContentView(R.layout.schema);
 
 
-        final TextView text_gavor = (TextView) findViewById(R.id.text_gavor);
-
-        final String gavor = Text_gavor.getText_gavor();
-        text_gavor.setText(gavor);
+        final TextView text_schema = (TextView) findViewById(R.id.text_schema);
 
 
-        ImageButton button_back = (ImageButton) findViewById(R.id.gavor_button_back);
+        text_schema.setText("Oj då, du var lite tidig");
 
-        button_back.setOnClickListener(new View.OnClickListener() {
+
+        ImageButton schema_button_back = (ImageButton) findViewById(R.id.schema_button_back);
+
+        schema_button_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(gavor.this, MainActivity.class);
+                Intent intent = new Intent(schema.this, MainActivity.class);
                 startActivity(intent);
             }
         });

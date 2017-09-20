@@ -2,13 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.missionarsbarnsapp.marku.mbtapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+
         <activity android:name="com.missionarsbarnsapp.marku.mbtapp.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
@@ -20,18 +25,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scroll"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait">
-        </activity>
-
 
         <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.vad_ar_mbt"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.praktisk_info"
+        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.mbt_2018"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
         </activity>
@@ -41,7 +41,7 @@
             android:screenOrientation="portrait">
          </activity>
 
-        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.mbt_plus"
+        <activity android:name="com.missionarsbarnsapp.marku.mbtapp.scrollclasses.schema"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
         </activity>

@@ -7,10 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.missionarsbarnsapp.marku.mbtapp.MainActivity;
 import com.missionarsbarnsapp.marku.mbtapp.R;
 import com.missionarsbarnsapp.marku.mbtapp.lekar.dod_ko;
 import com.missionarsbarnsapp.marku.mbtapp.lekar.lekar_med_bara_text;
-import com.missionarsbarnsapp.marku.mbtapp.scroll;
 
 /**
  * Created by marku on 2017-08-07.
@@ -249,7 +249,7 @@ public class lekar extends AppCompatActivity {
         lekar_button_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(lekar.this, scroll.class);
+                Intent intent = new Intent(lekar.this, MainActivity.class);
                 startActivity(intent);
             }
         });

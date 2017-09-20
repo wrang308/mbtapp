@@ -11,7 +11,7 @@
     >
 
     <TextView
-        android:text="Praktisk info"
+        android:text="MBT 2018"
         android:textSize="@dimen/title_size"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,20 +20,20 @@
         />
 
     <ImageButton
-        android:id="@+id/praktisk_info_button_back"
+        android:id="@+id/mbt_2018_button_back"
         android:layout_width="@dimen/backbuttonwidth"
         android:layout_height="@dimen/backbuttonwidth"
         android:background="@drawable/back1600"
-        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
         />
 
     <ScrollView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_marginTop="@dimen/scrollmargintop"
         android:id="@+id/praktisk_info_scroll"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/scroll_text_view_width"
         android:layout_height="wrap_content"
         android:fillViewport="true"
         android:layout_centerHorizontal="true"
@@ -41,9 +41,10 @@
         >
 
         <TextView
-            android:id="@+id/text_praktisk_info"
+            android:id="@+id/text_mbt_2018"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"/>
 
 
 

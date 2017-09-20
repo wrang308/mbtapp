@@ -27,7 +27,7 @@ public class time {
             long minutes = (secondsDay / 60) % 60;
             long hours = (secondsDay / 3600); // % 24 not needed
 
-            System.out.printf("%d days, %d hours, %d minutes and %d seconds\n", days, hours, minutes, seconds);
+            // System.out.printf("%d days, %d hours, %d minutes and %d seconds\n", days, hours, minutes, seconds);
 
 
 
