@@ -8,5 +8,5 @@
     <dimen name="backbuttonheight">60dp</dimen>
     <dimen name="backbuttonwidth">60dp</dimen>
     <dimen name="title_size">32sp</dimen>
-    <dimen name="scroll_text_view_width">340dp</dimen>
+    <dimen name="scroll_text_view_width">330dp</dimen>
 </resources>
