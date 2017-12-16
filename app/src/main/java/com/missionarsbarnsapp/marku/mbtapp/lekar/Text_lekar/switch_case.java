@@ -11,7 +11,7 @@ public class switch_case {
     final Text_flortleken flortleken = new Text_flortleken();
     final Text_djungeltelegrafen djungeltelegrafen = new Text_djungeltelegrafen();
     final Text_mafia mafia = new Text_mafia();
-    final Text_solomon_occasion solomon_occasion = new Text_solomon_occasion();
+    final Text_solemn_occasion solomon_occasion = new Text_solemn_occasion();
     final Text_toarullsleken toarullsleken = new Text_toarullsleken();
     final Text_kaptenen_kommer kaptenen_kommer = new Text_kaptenen_kommer();
     final Text_fruktsallad fruktsallad = new Text_fruktsallad();

@@ -4,9 +4,9 @@ package com.missionarsbarnsapp.marku.mbtapp.lekar.Text_lekar;
  * Created by marku on 2017-08-16.
  */
 
-public class Text_solomon_occasion {
+public class Text_solemn_occasion {
 
-    private String text_solomon_occasion = "Denna lek är en “skicka signalen” lek\n" +
+    private String text_solemn_occasion = "Denna lek är en “skicka signalen” lek\n" +
             "\n" +
             "Stå i en ring, alla håller sina händer ihop som en Lucia. Sedan kommer någon att börja med att säga \n" +
             "“Brother/Sister (namnet på en deltagare) this is a very solemn occasion.”\n" +
@@ -23,6 +23,6 @@ public class Text_solomon_occasion {
             "miner (men man får inte le som sagt) osv.\n";
 
     public String getText_solomon_occasion() {
-        return text_solomon_occasion;
+        return text_solemn_occasion;
     }
 }
