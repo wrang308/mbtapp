@@ -33,7 +33,6 @@ public class mbt_2018 extends AppCompatActivity{
 
         final TextView text1234 = (TextView) findViewById(R.id.text_mbt_2018);
 
-        System.out.println("jnkkdjncjsncijs");
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -72,10 +71,7 @@ public class mbt_2018 extends AppCompatActivity{
             @Override
             public void run() {
                 // upadte textView here
-//                do  {
                 text1234.setText(gettextString());
-//                }while(string== "loading");
-
                 handler.postDelayed(this,1200); // set time here to refresh textView
             }
         });
@@ -94,11 +90,9 @@ public class mbt_2018 extends AppCompatActivity{
 
     void concatString (String s){
         string = string.concat(s);
-        //System.out.println("String = " + string);
     }
 
     public String gettextString() {
-        //System.out.println("String = " + string);
         return string;
     }
 

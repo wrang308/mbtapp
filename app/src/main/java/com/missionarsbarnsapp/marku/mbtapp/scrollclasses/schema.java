@@ -22,10 +22,10 @@ public class schema extends AppCompatActivity{
         setContentView(R.layout.schema);
 
 
-        final TextView text_schema = (TextView) findViewById(R.id.text_schema);
+       // final TextView text_schema = (TextView) findViewById(R.id.text_schema);
 
 
-        text_schema.setText("Oj då, du var lite tidig");
+        //text_schema.setText("Oj då, du var lite tidig");
 
 
         ImageButton schema_button_back = (ImageButton) findViewById(R.id.schema_button_back);
