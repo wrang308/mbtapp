@@ -27,14 +27,62 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
         android:layout_alignParentLeft="true"
+
         />
 
     <ViewFlipper
         android:id="@+id/slideshow_schema"
         android:layout_width="@dimen/scroll_text_view_width"
         android:layout_height="wrap_content"
-        />
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        >
 
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EEEEEE"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentTop="true"
+                android:text="8:30 - 10:00" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+
+                android:layout_alignTop="@+id/time"
+                android:layout_toRightOf="@+id/time"
+
+                android:text="Frukost"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="10dp"
+
+
+                android:layout_below="@+id/time"
+                android:layout_toRightOf="@+id/time"
+
+                android:text="frukost i matsalen. Ha på skor!"
+                android:textSize="10sp"
+                />
+
+        </RelativeLayout>
+    </ViewFlipper>
 
     <!--ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/schema_scroll"
